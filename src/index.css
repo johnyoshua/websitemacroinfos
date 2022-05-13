@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  li {
+    @apply p-4;
+  }
+
+  button {
+    @apply text-white border  hover:bg-transparent hover:text-indigo-600 rounded-md;
+  }
+  .active-link{
+     @apply text-white px-2 py-2 rounded-md shadow-xl dark:border-teal-700 font-semibold;
+   }
+}
+
+.active-link {
+  background: rgb(249, 178, 51);
+}
